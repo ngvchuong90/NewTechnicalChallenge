@@ -1,12 +1,5 @@
 # NewTechnicalChallenge
 
-VS Code Extensions:
-
-Install Prettier - Code formatter.
-Install TSLint or ESLint (if transitioning from TSLint).
-
-# NewTechnicalChallenge
-
 ## Instructions to Run the Tests
 
 1. **Install Dependencies**:
@@ -21,8 +14,9 @@ Install TSLint or ESLint (if transitioning from TSLint).
 2. **Run test command**
 
 - **Way to implement test cases and run** So you can command spec if you don't want to run.
-  cart.dataDriven.spec.ts -> using data driven (for same data structure)
-  cart.spec.ts -> not use data driven, separated test data.
+
+  - cart.dataDriven.spec.ts -> using data driven (for same data structure)
+  - cart.spec.ts -> not use data driven, separated test data.
 
 - **Browser for running and configuration**: For now, just comment some browsers not install yet for running container. If you want to run, please install it before run, if not, they will be failed.
 
