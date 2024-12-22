@@ -62,11 +62,12 @@
 ## Handling Dynamic Scenarios
 
 To handle dynamic scenarios such as searching or browsing for an in-stock product, the tests use the following approach:
-**Searching for a Product:** The searchProduct method in the LandingPage class is used to search for a product by its name. This method fills the search input and clicks the search button to initiate the search.
 
-**Clicking on a Product:** The clickOnProductDetailLink method in the SearchResultsPage class is used to click on the product link from the search results.
+- **Searching for a Product:** The searchProduct method in the LandingPage class is used to search for a product by its name. This method fills the search input and clicks the search button to initiate the search.
 
-**Adding a Product to the Bag:** The addProductToBag method in the ProductDetailPage class is used to add a product to the shopping bag. This method handles selecting the size, quantity, and clicking the "Add to Bag" button.
+- **Clicking on a Product:** The clickOnProductDetailLink method in the SearchResultsPage class is used to click on the product link from the search results.
+
+- **Adding a Product to the Bag:** The addProductToBag method in the ProductDetailPage class is used to add a product to the shopping bag. This method handles selecting the size, quantity, and clicking the "Add to Bag" button.
 
 - Note: These methods ensure that the tests can dynamically interact with the application and handle scenarios where the product details may vary.
 
