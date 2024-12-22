@@ -42,7 +42,7 @@ export default defineConfig({
   workers: process.env.CI ? 1 : undefined,
   reporter: "html",
   use: {
-    headless: false,
+    headless: true,
     baseURL: "https://www.davidjones.com",
     viewport: { width: 1280, height: 720 },
     screenshot: "only-on-failure",
